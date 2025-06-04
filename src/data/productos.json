@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Waffles",
+    "img": "/image-waffle-desktop.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Baklava",
+    "img": "/image-baklava-desktop.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Brownie",
+    "img": "/image-brownie-desktop.jpg"
+  },
+  {
+    "id": 4,
+    "name": "cake",
+    "img": "/image-cake-desktop.jpg"
+  },
+  {
+    "id": 5,
+    "name": "creme brulee",
+    "img": "/image-creme-brulee-desktop.jpg"
+  },
+  {
+    "id": 6,
+    "name": "macaron",
+    "img": "/image-macaron-desktop.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pie",
+    "img": "/image-meringue-desktop.jpg"
+  },
+  {
+    "id": 8,
+    "name": "panna cotta",
+    "img": "/image-panna-cotta-desktop.jpg"
+  },
+  {
+    "id": 9,
+    "name": "tiramisu",
+    "img": "/image-tiramisu-desktop.jpg"
+  }
+]
