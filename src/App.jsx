@@ -52,13 +52,17 @@ function Cart({ totalCart, items }) {
                   <img
                     src="/icon-remove-item.svg"
                     alt=""
-                    className=" w-5 h-5 border-[1px] border-[#a88e86] rounded-full"
+                    className="w-5 h-5 border-[1px] border-[#a88e86] rounded-full"
                   />
                 </button>
               </div>
             </div>
           );
         })}
+      </div>
+      <div className="flex  justify-center items-center gap-2 bg-[#fdf5f0] py-4 rounded-xl">
+        <img src="/icon-carbon-neutral.svg" alt="" className="" />
+        This is a <span className="font-semibold">carbon-neutral</span> delivery
       </div>
     </div>
   );
@@ -134,7 +138,10 @@ export default function App() {
   const result = Object.values(count).reduce((acc, curr) => acc + curr, 0);
 
   return (
-    <div className="flex m-30 justify-center gap-10">
+    <div
+      className="flex mx-30 my-10 justify-center gap-10 bg-[#fdf5f0] rounded-2xl
+    py-20"
+    >
       <section className="desserts">
         <h1 className=" font-bold text-4xl">Desserts</h1>
         <div className="grid grid-cols-3 gap-6 my-10">
